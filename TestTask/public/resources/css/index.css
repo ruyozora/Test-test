@@ -1,0 +1,100 @@
+/* 
+    Document   : index.css
+    Created on : 10.04.2012, 10:39:45
+    Author     : anonymous
+*/
+
+body
+{
+    background-color: #fff;
+    margin:0;padding:0;
+}
+
+.page
+{
+    margin-left:10%;width:60%;
+    margin-top:80px;
+    margin-bottom:30px;
+}
+
+thead
+{
+    font-weight: bold;
+}
+
+td .button
+{
+    cursor:pointer;
+    cursor:hand;
+    
+    width:16px;
+    height:16px;
+}
+
+h1
+{
+    font-size:2em;
+    font-weight:normal;
+}
+
+h2
+{
+    font-size:1.5em;
+    font-weight:normal;
+    margin-bottom:0.5em;
+    margin-top:1em;
+}
+
+.ajax-loader
+{
+    display:inline-block;
+    margin-left:5px;
+    background-image: url('/resources/ajax-loader.gif');
+    width:16px;
+    height:11px;
+    visibility: hidden;
+}
+
+h2:first-child
+{
+    margin-top:0;
+}
+
+ul.large-text li
+{
+    margin-top:1em;
+}
+
+.tab
+{
+}
+
+.tab .header
+{
+    cursor:pointer;
+    cursor:hand;
+    
+    padding:3px;
+    margin:20px 0;
+}
+
+.tab .header h1
+{
+    margin:0;
+    padding:0;
+}
+
+.tab .header:hover
+{
+    background-color: #f0f0f0;
+}
+
+.tab .header div, .tab .header h1
+{
+    display: inline-block;
+}
+
+.tab .header div
+{
+    margin-left:10px;
+}
